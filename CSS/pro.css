@@ -1,0 +1,96 @@
+:root {
+    --shadow-color-1: rgba(0,0,0,.15);
+    --shadow-color-2: rgba(0,0,0,.28);
+    --box-shadow-subtle: 0 1px 2px -2px var(--shadow-color-1), 0 1px 2px var(--shadow-color-1), 0 1px 4px var(--shadow-color-1);
+    --box-shadow-drawer: 0 4px 12px var(--shadow-color-2);
+    --spacing-1: 4px;
+    --spacing-1-5: 6px;
+    --spacing-2: 8px;
+    --spacing-2-5: 10px;
+    --spacing-3: 12px;
+    --spacing-4: 16px;
+    --spacing-6: 24px;
+    --spacing-8: 32px;
+    --spacing-10: 40px;
+    --spacing-11: 44px;
+    --spacing-12: 48px;
+    --spacing-14: 56px;
+    --spacing-18: 72px;
+    --spacing-20: 80px;
+    --spacing-21: 84px;
+    --spacing-22: 88px;
+    --spacing-25: 100px;
+    --spacing-30: 120px;
+    --width-small: 560px;
+    --max-width: 1440px;
+    --content-width: 1000px;
+    --header-height-mobile: 89px;
+    --header-height-desktop: 99px;
+    --contact-height-mobile: 89px;
+    --transition-duration: 0.2s;
+}
+
+:root {
+    --border-radius-s: 4px;
+    --border-radius-m: 8px;
+    --border-radius-lg: 16px;
+    --border-radius-full: 9999px;
+    --color-primary-50: #f5f7ff;
+    --color-primary-100: #e7ebfc;
+    --color-primary-300: #c6cfff;
+    --color-primary-500: #7085ee;
+    --color-primary-900: #4d61c2;
+    --color-secondary-100: #fff0f7;
+    --color-secondary-300: #f5ccea;
+    --color-secondary-500: #f5a2de;
+    --color-secondary-900: #ff63a5;
+    --color-tertiary-100: #aeb4d9;
+    --color-tertiary-300: #6b729d;
+    --color-tertiary-500: #434867;
+    --color-tertiary-900: #303349;
+    --color-mono-100: #f8f8f8;
+    --color-mono-300: #c4c4c4;
+    --color-mono-400: #999;
+    --color-mono-600: #707070;
+    --color-mono-900: #333;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-text-link: #748bfe;
+    --color-box-shadow: rgba(64,91,231,.4);
+}
+
+:root {
+    --font-lettera-regular: '__letteraRegular_3ea8c2', '__letteraRegular_Fallback_3ea8c2';
+    --font-lettera-bold: '__letteraBold_f2275f', '__letteraBold_Fallback_f2275f';
+    --font-lettera-medium: '__letteraMedium_e7252f', '__letteraMedium_Fallback_e7252f';
+}
+
+element.style {
+    vertical-align: inherit;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
